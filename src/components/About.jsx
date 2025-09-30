@@ -1,7 +1,7 @@
 import React from "react";
-import "./style/about.scss";
+import "../style/about.scss";
 import Navbar from "./Navbar.jsx";
-import "./style/Navbar.scss";
+import "../style/Navbar.scss";
 import Footer from './Footer.jsx'
 
 const About = () => {

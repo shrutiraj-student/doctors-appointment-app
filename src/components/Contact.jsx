@@ -1,7 +1,7 @@
 import React from 'react'
-import "./style/contact.scss";
+import "../style/contact.scss";
 import Navbar from "./Navbar.jsx";
-import "./style/Navbar.scss";
+import "../style/Navbar.scss";
 import Footer from './Footer.jsx'
 
 const Contact = () => {

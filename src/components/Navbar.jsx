@@ -1,5 +1,5 @@
 import React from "react";
-import "./style/navbar.scss";
+import "../style/navbar.scss";
 
 const Navbar = () => {
   return (
@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
         <div>
           <ul className="nav-ul">
-          <a href="#">Home</a>
-            <a href="/all-doctors">All Doctors</a>
+          <a href="/">Home</a>
+            <a href="/doctors">All Doctors</a>
             <a href="/about">About</a>
             <a href="/contact">Contact</a>
             

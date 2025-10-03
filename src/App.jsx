@@ -7,6 +7,7 @@ import Login from './components/Login'
 import About from './components/About'
 import Contact from './components/Contact'
 import Appointment from './components/Appointment'
+import MyProfile from './components/MyProfile'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/appointment/:docId' element={<Appointment/>}/>
     <Route path='/login' element={<Login/>}/>
+    <Route path='/myprofile' element={<MyProfile/>}/>
     </Routes>
     </div>
   )

@@ -9,8 +9,10 @@ import Contact from './components/Contact'
 import Appointment from './components/Appointment'
 
 
+
 const App = () => {
   return (
+    
     <div className='container'>
     <Routes> 
     <Route path='/' element={<Home/>}/>
@@ -20,6 +22,7 @@ const App = () => {
     <Route path='/about' element={<About/>}/>
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/appointment/:docId' element={<Appointment/>}/>
+    <Route path='/login' element={<Login/>}/>
     </Routes>
     </div>
   )

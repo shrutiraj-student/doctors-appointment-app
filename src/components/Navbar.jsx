@@ -1,7 +1,9 @@
 import React from "react";
 import "../style/navbar.scss";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="navbar">
@@ -20,7 +22,7 @@ const Navbar = () => {
           </ul>
           </div>
           <div className="admin-btn">
-            <button>Create account</button>
+            <button onClick={()=> navigate('/login')} className="bg-blue-500  border border-radius-1 rounded-full ">Create account</button>
           </div>
         </div>
       

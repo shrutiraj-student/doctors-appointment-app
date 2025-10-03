@@ -17,7 +17,7 @@ const AllDoctor = () => {
     if(!doctors || doctors.length === 0)return;
       if(speciality){
         setFilterDoc(doctors.filter(docItem =>
-            docItem.speciality.trim().toLowerCase() === speciality.toLowerCase()
+            docItem.speciality.toLowerCase() === speciality.toLowerCase()
         ))
       }
       else{
@@ -34,14 +34,14 @@ useEffect(()=>{
       <Navbar />
       <div>
         <p className="text-grey-600">Browse through the doctors specialist.</p>
-        <div className="flex flex-col sm:flex-row item-start gap-5 mt-5">
-          <div className="flex-col gap-4 text-sm text-grey-600">
-            <p className="border-grey-300 rouned p-1">General physician</p>
-            <p className="border-grey-300 rouned p-1">Gynecologist</p>
-            <p className="border-grey-300 rouned p-1">Dermatologist</p>
-            <p className="border-grey-300 rouned p-1">Pediatricians</p>
-            <p className="border-grey-300 rouned p-1">Neurologist</p>
-            <p className="border-grey-300 rouned p-1">Gastroenterologist</p>
+        <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
+          <div className=" flex flex-col gap-4 text-sm text-grey-600">
+            <p onClick={()=> [speciality === 'General physician' ? navigate("/doctors" ) : navigate("/doctors/General physician")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "General physician" ? "bg-indigo-100" : ""}`}>General physician</p>
+            <p onClick={()=> [speciality === 'Gynecologist' ? navigate("/doctors" ) : navigate("/doctors/Gynecologist")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "Gynecologist" ? "bg-indigo-100" : ""}`}>Gynecologist</p>
+            <p onClick={()=> [speciality === 'Dermatologist' ? navigate("/doctors" ) : navigate("/doctors/Dermatologist")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "Dermatologist" ? "bg-indigo-100" : ""}`}>Dermatologist</p>
+            <p onClick={()=> [speciality === 'Pediatricians' ? navigate("/doctors" ) : navigate("/doctors/Pediatricians")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "Pediatricians" ? "bg-indigo-100" : ""}`}>Pediatricians</p>
+            <p onClick={()=> [speciality === 'Neurologist' ? navigate("/doctors" ) : navigate("/doctors/Neurologist")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "Neurologist" ? "bg-indigo-100" : ""}`}>Neurologist</p>
+            <p onClick={()=> [speciality === 'Gastroenterologist' ? navigate("/doctors" ) : navigate("/doctors/Gastroenterologist")]} className={`border border-grey-300 rounded p-1 cursor-pointer ${speciality === "Gastroenterologist" ? "bg-indigo-100" : ""}`}>Gastroenterologist</p>
           </div>
           <div id="l" className="w-full grid grid-col-auto gap-4 gap-y-6">
             {filterDoc.map(

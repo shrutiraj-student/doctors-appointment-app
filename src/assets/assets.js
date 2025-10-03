@@ -21,7 +21,7 @@ export const doctors =[{
 {
   _id:'doc2',
   name:"Dr. Emily Larson",
-  speciality:" Gynecologist",
+  speciality:"Gynecologist",
   image:"/images/doc2.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -32,7 +32,7 @@ export const doctors =[{
 {
   _id:'doc3',
   name:"Dr. Sarah Patel",
-  speciality:" Dermatologist",
+  speciality:"Dermatologist",
   image:"/images/doc3.png",
   experience:"2 years",
   degree: 'MBBS',
@@ -44,7 +44,7 @@ export const doctors =[{
 {
   _id:'doc4',
   name:"Dr. Christopher Lee",
-  speciality:" Pediatricians",
+  speciality:"Pediatricians",
   image:"/images/doc4.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -55,7 +55,7 @@ export const doctors =[{
 {
   _id:'doc5',
   name:"Dr. Jennifer Garcia",
-  speciality:" Neurologist",
+  speciality:"Neurologist",
   image:"/images/doc5.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -67,7 +67,7 @@ export const doctors =[{
 {
   _id:'doc6',
   name:"Dr. Andrew Williams",
-  speciality:" Gastroenterologist",
+  speciality:"Gastroenterologist",
   image:"/images/doc6.png",
   experience:"7 years",
   degree: 'MBBS',
@@ -78,7 +78,7 @@ export const doctors =[{
 {
   _id:'doc7',
   name:"Dr. Christopher Davis",
-  speciality:" General physician",
+  speciality:"General physician",
   image:"/images/doc7.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -89,7 +89,7 @@ export const doctors =[{
 {
   _id:'doc8',
   name:"Dr. Timothy White",
-  speciality:" Gynecologist",
+  speciality:"Gynecologist",
   image:"/images/doc8.png",
   experience:"4 years",
   degree: 'MBBS',
@@ -100,7 +100,7 @@ export const doctors =[{
 {
   _id:'doc9',
   name:"Dr. Ava Mitchell",
-  speciality:" Dermatologist",
+  speciality:"Dermatologist",
   image:"/images/doc9.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -111,7 +111,7 @@ export const doctors =[{
 {
   _id:'doc10',
   name:"Dr. Jeffrey King",
-  speciality:" Pediatricians",
+  speciality:"Pediatricians",
   image:"/images/doc10.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -122,7 +122,7 @@ export const doctors =[{
 {
   _id:'doc11',
   name:"Dr. Zoe Kelly",
-  speciality:" Neutrologist",
+  speciality:"Neutrologist",
   image:"/images/doc11.png",
   experience:"4 years",
   degree: 'MBBS',
@@ -133,7 +133,7 @@ export const doctors =[{
 {
   _id:'doc12',
   name:" Dr. Patrick Harris",
-  speciality:" Gastrologist",
+  speciality:"Gastrologist",
   image:"/images/doc12.png",
   experience:"2 years",
   degree: 'MBBS',
@@ -144,7 +144,7 @@ export const doctors =[{
 {
   _id:'doc13',
   name:"Dr. Chloe Evans",
-  speciality:" General Physician",
+  speciality:"General Physician",
   image:"/images/doc13.png",
   experience:"2 years",
   degree: 'MBBS',
@@ -155,7 +155,7 @@ export const doctors =[{
 {
   _id:'doc14',
   name:"Dr. Ryan Martinez",
-  speciality:" Gynecologist",
+  speciality:"Gynecologist",
   image:"/images/doc14.png",
   experience:"3 years",
   degree: 'MBBS',
@@ -166,7 +166,7 @@ export const doctors =[{
 {
   _id:'doc15',
   name:"Dr. Amelia Hill",
-  speciality:" Gynocologist",
+  speciality:"Gynocologist",
   image:"/images/doc15.png",
   experience:"3 years",
   degree: 'MBBS',

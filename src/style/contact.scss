@@ -1,0 +1,31 @@
+.about-heading{
+   text-align: center;
+}
+
+.about-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; // optional for spacing
+    gap: 2rem; // adds space between boxes
+    margin-top: 4rem;
+  }
+  
+  .images-box,
+  .detail-box {
+    width: 26rem;
+    height: auto;
+  }
+  
+  .images-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  span{
+    font-size:1rem;
+    color:grey;
+  }
+  button{
+    padding:1rem 1rem;
+    background-color: white;
+  }

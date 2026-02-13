@@ -1,0 +1,97 @@
+.banner-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 3rem 2rem;
+  background-color: #5f6fff;
+  color: white;
+  flex-wrap: wrap;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.banner-content p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+.banner-content button {
+  background-color: white;
+  color: #606060;
+  padding: 0.75rem 1.5rem;
+
+  border-radius: 30px;
+  cursor: pointer;
+}
+.banner-content button:hover {
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+.banner-image img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+/*Doctors category css*/
+.doctor-cg{
+    margin: 6rem 0;
+    text-align: center;
+}
+
+.doctor-cg-img-div{
+     display: flex;
+     justify-content: center;
+     gap:1rem;
+}
+.doctor-cg-img-div div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}
+/*Card Css*/
+.doctors-info-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    gap:40px;
+    padding-top: 50px;
+    margin-bottom: 5rem;
+
+    
+}
+.card{
+    width: 17rem;
+    height:22rem;
+    background-color:#EAEFFF;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.card img{
+   
+    height: 16rem;
+    width: 100%;
+}
+.card-content{
+    padding:16px;
+    background-color: white;
+}
+.more-btn{
+    display: flex;
+    justify-content: center;
+
+    margin: 4rem;
+}
+.more-btn button{
+    background-color: white;
+    color: #606060;
+    padding: 0.75rem 2.5rem;
+    border-radius: 30px;
+}
